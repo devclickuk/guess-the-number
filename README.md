@@ -1,13 +1,12 @@
-# React Calculator App
+# React Guess The number Game
 
-### This is a demo project made by Dave Amison for the purpose of demonstrating the use of Maths and Functions in a react App.
+### This is a demo project made by Dave Amison for the purpose of basic win loss condition and functions in react
 
 Welcome to the "Guess the Number" game built using React! This is a simple and fun game where players try to guess a randomly generated number within a certain range.
 
 ## Demo
 
 You can view a live demo of this project here: [https://devclickuk.github.io/guess-the-number](https://devclickuk.github.io/guess-the-number)
-
 
 ## Technologies Used
 
