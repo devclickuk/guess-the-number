@@ -1,0 +1,79 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+}
+
+.gameTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--titleColor);
+    margin: var(--margin);
+}
+
+.gameSubTitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--titleColor);
+    margin: var(--margin);
+}
+
+.guessesRemaining {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--amberColor);
+    margin: var(--margin);
+}
+
+.guessResult {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--amberColor);
+    margin: var(--margin);
+}
+
+.card {
+    border-radius: var(--borderRadius);
+    background-color: var(--cardBackgroundColor);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>input {
+    width: 100%;
+    padding: 10px;
+    margin: var(--margin);
+    font-size: 16px;
+    border: 2px solid var(--blueColor);
+    border-radius: var(--borderRadius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s;
+
+}
+
+.card>input:focus {
+    border-color: var(--blueAccentColor);
+    outline: none;
+}
+
+.card>button {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    border: none;
+    border-radius: var(--borderRadius);
+    padding: var(--padding);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+    margin: var(--margin);
+}
+
+.card>button:hover {
+    background-color: var(--blueAccentColor);
+}

@@ -1,8 +1,41 @@
+:root {
+  --borderRadius: 1rem;
+  --cardBackgroundColor: lightblue;
+  --padding: 1rem;
+  --margin: 1rem;
+
+  --greenColor: rgb(22, 216, 22);
+  --blueAccentColor: rgb(22, 22, 216);
+  --blueColor: #007bff;
+  --redColor: rgb(216, 22, 22);
+  --amberColor: rgb(216, 132, 22);
+  --grayedOut: lightgray;
+  --whiteColor: white;
+  --titleColor: rgb(36, 117, 223);
+
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
 body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: aliceblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
