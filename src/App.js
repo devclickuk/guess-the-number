@@ -10,7 +10,6 @@ function App() {
 
   const getNewNumber = () => {
     const number = Number(Math.floor(Math.random() * 100));
-    console.log(number)
     setNumberToGuess(number);
     setGameInProgress(true);
   }
